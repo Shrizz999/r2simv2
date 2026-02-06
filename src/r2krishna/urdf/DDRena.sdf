@@ -1,0 +1,1152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.7">
+    <model name="DDRena">
+        <link name="base_link">
+            <pose>9.629649721936226e-35 -5.9750000000000005 -0.024999999999999085 1.570796326794894 8.552847072295284e-50 8.552847072295032e-50</pose>
+            <inertial>
+                <mass>147634.65562499862</mass>
+                <pose>0.09804830425172041 0.16806350640087753 -8.851777051318086 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1625855.778023862</ixx>
+                    <iyy>3361200.2646735646</iyy>
+                    <izz>1741302.061676479</izz>
+                    <ixy>2598.9194149476243</ixy>
+                    <iyz>40775.69407793386</iyz>
+                    <ixz>34029.33153491527</ixz>
+                </inertia>
+            </inertial>
+            <visual name="base_link_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/base_link.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="base_link_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/base_link.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="Acrylic_Fence">
+            <pose>-0.025000000000000785 3.465 0.8249999999999755 -1.5707963267948966 2.6645327180015257e-15 1.5707963267948966</pose>
+            <inertial>
+                <mass>219.79999999999998</mass>
+                <pose>0.004999999999999227 0.35000000000000037 -2.000000000000002 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>302.0418333333321</ixx>
+                    <iyy>293.0684983333351</iyy>
+                    <izz>8.976998333334457</izz>
+                    <ixy>8.977709302453543e-14</ixy>
+                    <iyz>-1.7395587306998524e-14</iyz>
+                    <ixz>-5.5537037145992596e-30</ixz>
+                </inertia>
+            </inertial>
+            <visual name="Acrylic_Fence_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Acrylic_Fence.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="Acrylic_Fence_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Acrylic_Fence.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="spearhead_rack">
+            <pose>0.1249999999999998 -5.625 0.02500000000000007 1.5707963267948966 2.6645327180015363e-15 1.5707963267948966</pose>
+            <inertial>
+                <mass>1413.0372881915239</mass>
+                <pose>0.5999999999999999 0.2500069666120242 -0.15000000000000002 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>40.037601289276765</ixx>
+                    <iyy>180.16185045681055</iyy>
+                    <izz>199.00445157828665</izz>
+                    <ixy>-1.4599197104906114e-13</ixy>
+                    <iyz>-5.329070518200783e-15</iyz>
+                    <ixz>9.733912218848632e-15</ixz>
+                </inertia>
+            </inertial>
+            <visual name="spearhead_rack_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/spearhead_rack.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="spearhead_rack_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/spearhead_rack.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="Staff_Rack">
+            <pose>3.7999999999999927 -5.675 0.025000000000000036 1.5707963267948992 1.6315557321619886e-31 3.141592653589793</pose>
+            <inertial>
+                <mass>42.60901761155399</mass>
+                <pose>0.3999999999999977 0.12220170326042479 -0.10671666555490114 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1.062003149331752</ixx>
+                    <iyy>4.062230410085025</iyy>
+                    <izz>4.891429591646363</izz>
+                    <ixy>3.554586309592118e-15</ixy>
+                    <iyz>0.030582381673250596</iyz>
+                    <ixz>1.1392132246337297e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="Staff_Rack_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Staff_Rack.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="Staff_Rack_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Staff_Rack.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="Tic-Tac-Toe_Base">
+            <pose>0.13500000000000362 3.964999999999999 0.42499999999997357 1.5707963267948966 2.6645327180015363e-15 1.5707963267948966</pose>
+            <inertial>
+                <mass>1627.7759999999998</mass>
+                <pose>0.81 0.20000000000000012 -0.16000000000000017 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>35.594035199999894</ixx>
+                    <iyy>369.8849664000012</iyy>
+                    <izz>377.6982912000025</izz>
+                    <ixy>1.876557825932513e-14</ixy>
+                    <iyz>7.1054273576007975e-15</iyz>
+                    <ixz>-3.589557475655358e-14</ixz>
+                </inertia>
+            </inertial>
+            <visual name="Tic-Tac-Toe_Base_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Tic-Tac-Toe_Base.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="Tic-Tac-Toe_Base_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Tic-Tac-Toe_Base.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="Tic-Tac-Toe_Top">
+            <pose>0.1250000000000036 3.9650000000000003 0.8249999999999733 1.5707963267948966 2.664532718001536e-15 1.5707963267948966</pose>
+            <inertial>
+                <mass>881.7119999999985</mass>
+                <pose>0.8100000000000109 0.8100000000000013 -0.1500000000000001 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>217.81225439999662</ixx>
+                    <iyy>217.81225440000725</iyy>
+                    <izz>422.3988288000004</izz>
+                    <ixy>-1.818989403545885e-12</ixy>
+                    <iyz>2.9842794901924304e-13</iyz>
+                    <ixz>1.5463586182639364e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="Tic-Tac-Toe_Top_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Tic-Tac-Toe_Top.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="Tic-Tac-Toe_Top_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Tic-Tac-Toe_Top.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4001">
+            <pose>3.599999999999992 -1.575 0.024999999999989093 1.5707963267948966 -2.6645327180015363e-15 -1.570796326794897</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999998 0.19999999999999998 -0.5999999999999996 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8800000000047</ixx>
+                    <iyy>1085.1839999999938</iyy>
+                    <izz>602.880000000001</izz>
+                    <ixy>-7.912726463640852e-14</ixy>
+                    <iyz>-4.6808132776305914e-29</iyz>
+                    <ixz>-1.5146129380243445e-27</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4001_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4001.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4001_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4001.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2001">
+            <pose>3.5999999999999948 -1.5750000000000006 0.024999999999989093 1.5707963267948992 5.131703349398693e-49 -3.141592653589793</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.6 0.09999999999999999 -0.5999999999999996 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.83200000000215</ixx>
+                    <iyy>542.5920000000006</iyy>
+                    <izz>278.83199999999124</izz>
+                    <ixy>1.1368683772161603e-13</ixy>
+                    <iyz>9.301071435120217e-14</iyz>
+                    <ixz>-3.0292229871537714e-28</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2001_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2001.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2001_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2001.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4002">
+            <pose>2.399999999999998 -1.575000000000001 0.024999999999989093 1.5707963267948992 9.466321834855536e-31 3.1415926535897927</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.6000000000000001 0.19999999999999998 -0.5999999999999996 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.880000000001</ixx>
+                    <iyy>1085.1840000000084</iyy>
+                    <izz>602.8800000000065</izz>
+                    <ixy>4.5474735088645427e-13</ixy>
+                    <iyz>-3.756200862500897e-13</iyz>
+                    <ixz>-3.637978807091712e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4002_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4002.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4002_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4002.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2002">
+            <pose>3.5999999999999917 -1.575000000000001 0.024999999999989093 1.570796326794894 -3.2631114643239785e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.5999999999999999 0.09999999999999998 -0.6000000000000003 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.8319999999999</ixx>
+                    <iyy>542.5920000000042</iyy>
+                    <izz>278.83200000000215</izz>
+                    <ixy>-4.5474735088645927e-13</ixy>
+                    <iyz>2.067612337039447e-14</iyz>
+                    <ixz>-1.8189894035458573e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2002_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2002.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2002_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2002.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4003">
+            <pose>2.399999999999995 -1.575000000000001 0.024999999999989093 1.570796326794894 -3.2631114643239785e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999999 0.2 -0.6 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8800000000001</ixx>
+                    <iyy>1085.1839999999866</iyy>
+                    <izz>602.8799999999901</izz>
+                    <ixy>4.54747350886469e-13</ixy>
+                    <iyz>3.4559573085227094e-14</iyz>
+                    <ixz>-1.8189894035458565e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4003_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4003.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4003_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4003.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="6001">
+            <pose>1.199999999999998 -1.575000000000001 0.024999999999989093 1.570796326794894 -3.7982270983039195e-64 1.9259299443872444e-34</pose>
+            <inertial>
+                <mass>6782.4</mass>
+                <pose>0.5999999999999999 0.30000000000000004 -0.6000000000000001 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1017.3600000000006</ixx>
+                    <iyy>1627.775999999998</iyy>
+                    <izz>1017.3600000000006</izz>
+                    <ixy>4.5474735088645927e-13</ixy>
+                    <iyz>-6.472633508407016e-13</iyz>
+                    <ixz>1.8189894035458577e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="6001_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6001.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="6001_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6001.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4004">
+            <pose>3.599999999999992 0.8249999999999993 0.0249999999999827 1.5707963267948966 -2.6645327180015363e-15 -1.570796326794897</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999999 0.19999999999999998 -0.5999999999999996 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8800000000192</ixx>
+                    <iyy>1085.1839999999938</iyy>
+                    <izz>602.8800000000001</izz>
+                    <ixy>1.1982470137638035e-13</ixy>
+                    <iyz>-9.094947017729236e-13</iyz>
+                    <ixz>-1.818989403545867e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4004_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4004.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4004_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4004.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="6002">
+            <pose>3.5999999999999948 0.8249999999999988 0.0249999999999827 1.5707963267948992 5.131703349398693e-49 -3.141592653589793</pose>
+            <inertial>
+                <mass>6782.4</mass>
+                <pose>0.6 0.3 -0.6000000000000001 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1017.360000000001</ixx>
+                    <iyy>1627.7759999999907</iyy>
+                    <izz>1017.359999999986</izz>
+                    <ixy>-9.09494701772933e-13</ixy>
+                    <iyz>-1.4854451321063e-13</iyz>
+                    <ixz>-1.818989403545854e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="6002_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6002.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="6002_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6002.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4005">
+            <pose>2.399999999999998 0.8249999999999984 0.0249999999999827 1.5707963267948992 9.466321834855536e-31 3.1415926535897927</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.6000000000000001 0.19999999999999998 -0.6 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8799999999983</ixx>
+                    <iyy>1085.1839999999993</iyy>
+                    <izz>602.8800000000047</izz>
+                    <ixy>6.821210263296956e-13</ixy>
+                    <iyz>-1.1982470137643467e-13</iyz>
+                    <ixz>-2.2737367544323163e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4005_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4005.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4005_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4005.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2003">
+            <pose>3.5999999999999917 0.8249999999999978 0.0249999999999827 1.570796326794894 -3.2631114643239785e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.5999999999999999 0.1 -0.6000000000000003 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.8319999999994</ixx>
+                    <iyy>542.5919999999969</iyy>
+                    <izz>278.8319999999949</izz>
+                    <ixy>-2.2737367544323206e-13</ixy>
+                    <iyz>2.067612337039447e-14</iyz>
+                    <ixz>-1.1612026747063464e-27</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2003_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2003.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2003_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2003.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4006">
+            <pose>2.399999999999995 0.8249999999999978 0.0249999999999827 1.570796326794894 -3.2631114643239785e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999999 0.2 -0.5999999999999998 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8799999999992</ixx>
+                    <iyy>1085.184000000001</iyy>
+                    <izz>602.8799999999901</izz>
+                    <ixy>4.5474735088645453e-13</ixy>
+                    <iyz>3.7562008625011396e-13</iyz>
+                    <ixz>3.637978807091713e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4006_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4006.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4006_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4006.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2004">
+            <pose>2.3999999999999977 0.8249999999999975 0.0249999999999827 1.5707963267948966 2.6645327180015363e-15 1.5707963267948963</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.6000000000000002 0.1 -0.6000000000000004 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.83200000000306</ixx>
+                    <iyy>542.5920000000024</iyy>
+                    <izz>278.8319999999994</izz>
+                    <ixy>-2.06761233703871e-14</ixy>
+                    <iyz>-2.273736754432321e-13</iyz>
+                    <ixz>-6.310887241768125e-29</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2004_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2004.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2004_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2004.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="6004">
+            <pose>-2.4499999999999953 0.8249999999999988 0.024999999999896775 1.5707963267948992 5.131703349398693e-49 -3.141592653589793</pose>
+            <inertial>
+                <mass>6782.4</mass>
+                <pose>0.6 0.30000000000000004 -0.6000000000000001 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1017.3600000000008</ixx>
+                    <iyy>1627.7760000000053</iyy>
+                    <izz>1017.3600000000079</izz>
+                    <ixy>9.094947017729258e-13</ixy>
+                    <iyz>-3.1907476979303466e-13</iyz>
+                    <ixz>-9.094947017729307e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="6004_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6004.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="6004_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6004.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="Staff_Rack2">
+            <pose>-3.0499999999999954 -5.675 0.02500000000000002 1.5707963267948992 1.6315557321619892e-31 3.141592653589793</pose>
+            <inertial>
+                <mass>42.60901761155399</mass>
+                <pose>0.4 0.12220170326042468 -0.10671666555490254 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1.062003149332213</ixx>
+                    <iyy>4.062230410084567</iyy>
+                    <izz>4.891429591646215</izz>
+                    <ixy>7.107299988392629e-15</ixy>
+                    <iyz>0.03058238167326487</iyz>
+                    <ixz>1.1392132246337352e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="Staff_Rack2_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Staff_Rack2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="Staff_Rack2_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Staff_Rack2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4007">
+            <pose>-2.449999999999998 -1.575 0.024999999999871198 1.5707963267948966 -2.664532718001537e-15 -1.570796326794897</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999998 0.19999999999999996 -0.6000000000000002 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8799999999974</ixx>
+                    <iyy>1085.1840000000084</iyy>
+                    <izz>602.8800000000047</izz>
+                    <ixy>-7.912726463634915e-14</ixy>
+                    <iyz>-2.2737367544322242e-13</iyz>
+                    <ixz>-3.6379788070917105e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4007_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4007.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4007_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4007.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4008">
+            <pose>-4.849999999999993 -2.775000000000001 0.024999999999874394 1.570796326794894 -6.1629699445674085e-31 -2.312964634635743e-16</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999999 0.19999999999999998 -0.6000000000000001 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8800000000047</ixx>
+                    <iyy>1085.1839999999938</iyy>
+                    <izz>602.8800000000047</izz>
+                    <ixy>9.094947017729476e-13</ixy>
+                    <iyz>-7.912726463640751e-14</iyz>
+                    <ixz>-7.2759576141834235e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4008_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4008.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4008_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4008.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2005">
+            <pose>-2.4499999999999953 -1.5750000000000006 0.024999999999871198 1.5707963267948992 5.131703349398693e-49 -3.141592653589793</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.6 0.09999999999999999 -0.5999999999999996 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.832000000004</ixx>
+                    <iyy>542.5920000000006</iyy>
+                    <izz>278.8319999999985</izz>
+                    <ixy>-4.846756779446034e-27</ixy>
+                    <iyz>9.301071435122156e-14</iyz>
+                    <ixz>-1.8189894035458565e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2005_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2005.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2005_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2005.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="6003">
+            <pose>-2.4499999999999984 -1.575000000000001 0.024999999999903173 1.570796326794894 -3.2631114643239793e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>6782.4</mass>
+                <pose>0.5999999999999999 0.30000000000000004 -0.6000000000000002 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>1017.3600000000015</ixx>
+                    <iyy>1627.775999999998</iyy>
+                    <izz>1017.3600000000006</izz>
+                    <ixy>4.547473508864642e-13</ixy>
+                    <iyz>2.6223135093222746e-13</iyz>
+                    <ixz>1.0854714500261481e-27</ixz>
+                </inertia>
+            </inertial>
+            <visual name="6003_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6003.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="6003_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/6003.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2006">
+            <pose>-3.6499999999999946 -1.5750000000000015 0.024999999999903173 1.5707963267948966 2.664532718001537e-15 1.5707963267948963</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.6000000000000004 0.1 -0.5999999999999995 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.83200000000215</ixx>
+                    <iyy>542.5920000000115</iyy>
+                    <izz>278.83200000000033</izz>
+                    <ixy>-2.0676123370414362e-14</ixy>
+                    <iyz>2.27373675443232e-13</iyz>
+                    <ixz>-9.403221990234464e-28</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2006_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2006.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2006_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2006.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4009">
+            <pose>-3.6499999999999955 -1.575000000000001 0.024999999999903173 1.570796326794894 -3.2631114643239785e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.6000000000000004 0.19999999999999998 -0.6 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8800000000001</ixx>
+                    <iyy>1085.184000000023</iyy>
+                    <izz>602.8800000000119</izz>
+                    <ixy>9.094947017729137e-13</ixy>
+                    <iyz>-7.912726463635016e-14</iyz>
+                    <ixz>5.4569682106375735e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4009_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4009.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4009_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4009.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4010">
+            <pose>-2.449999999999998 0.8249999999999993 0.024999999999896775 1.5707963267948966 -2.664532718001537e-15 -1.570796326794897</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999999 0.19999999999999996 -0.6000000000000002 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8799999999992</ixx>
+                    <iyy>1085.184000000001</iyy>
+                    <izz>602.8800000000001</izz>
+                    <ixy>1.7666812023726268e-13</ixy>
+                    <iyz>-1.5334785902388938e-28</iyz>
+                    <ixz>4.0389678347315594e-28</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4010_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4010.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4010_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4010.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4011">
+            <pose>-3.6499999999999932 0.8249999999999984 0.024999999999896775 1.5707963267948992 9.46632183485554e-31 3.1415926535897927</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.5999999999999998 0.19999999999999996 -0.6 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8799999999983</ixx>
+                    <iyy>1085.1840000000084</iyy>
+                    <izz>602.8800000000192</izz>
+                    <ixy>-4.2570285563819535e-29</ixy>
+                    <iyz>-1.1982470137642094e-13</iyz>
+                    <ixz>7.42160339631928e-27</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4011_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4011.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4011_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4011.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2007">
+            <pose>-2.449999999999999 0.8249999999999978 0.02499999999992875 1.570796326794894 -3.2631114643239793e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.6000000000000002 0.1 -0.6000000000000003 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.8319999999994</ixx>
+                    <iyy>542.5919999999969</iyy>
+                    <izz>278.83200000000033</izz>
+                    <ixy>-1.136868377216136e-13</ixy>
+                    <iyz>7.751954223118855e-14</iyz>
+                    <ixz>-9.094947017729284e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2007_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2007.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2007_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2007.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="2008">
+            <pose>-4.849999999999993 0.8249999999999977 0.02499999999992875 1.570796326794894 -3.7982270983039195e-64 1.9259299443872444e-34</pose>
+            <inertial>
+                <mass>2260.7999999999997</mass>
+                <pose>0.6000000000000005 0.1 -0.6000000000000001 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>278.8319999999994</ixx>
+                    <iyy>542.5920000000187</iyy>
+                    <izz>278.8320000000167</izz>
+                    <ixy>2.273736754432369e-13</ixy>
+                    <iyz>-9.301071435122095e-14</iyz>
+                    <ixz>-1.8189894035458559e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="2008_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2008.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="2008_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/2008.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="4012">
+            <pose>-3.6499999999999955 0.8249999999999978 0.02499999999992875 1.570796326794894 -3.2631114643239785e-31 -1.2246467991473532e-16</pose>
+            <inertial>
+                <mass>4521.6</mass>
+                <pose>0.6000000000000004 0.19999999999999998 -0.5999999999999998 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>602.8800000000028</ixx>
+                    <iyy>1085.184000000023</iyy>
+                    <izz>602.8800000000192</izz>
+                    <ixy>4.547473508864738e-13</ixy>
+                    <iyz>1.482464108068625e-13</iyz>
+                    <ixz>-3.6379788070917097e-12</ixz>
+                </inertia>
+            </inertial>
+            <visual name="4012_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4012.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="4012_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/4012.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <link name="Acrylic_Fence2">
+            <pose>-0.024999999999999935 3.475 0.824999999999975 -1.5707963267948968 -2.6645327180015257e-15 -1.5707963267948966</pose>
+            <inertial>
+                <mass>219.79999999999998</mass>
+                <pose>0.005000000000000773 0.35 -2.0000000000000004 0.0 0.0 0.0</pose>
+                <inertia>
+                    <ixx>302.041833333333</ixx>
+                    <iyy>293.068498333334</iyy>
+                    <izz>8.97699833333445</izz>
+                    <ixy>2.390974469708555e-14</ixy>
+                    <iyz>-1.1026122123404937e-14</iyz>
+                    <ixz>2.2737367544323206e-13</ixz>
+                </inertia>
+            </inertial>
+            <visual name="Acrylic_Fence2_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Acrylic_Fence2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name="Acrylic_Fence2_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://DDRena/meshes/Acrylic_Fence2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+        <joint name="base_link_Rigid-1" type="fixed">
+            <pose>0.010000000000001164 0.3499999999999757 -8.055263301265944e-16 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>Acrylic_Fence</child>
+        </joint>
+        <joint name="base_link_Rigid-2" type="fixed">
+            <pose>0.5999999999999996 1.5293306917618489e-15 -0.14999999999999986 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>spearhead_rack</child>
+        </joint>
+        <joint name="base_link_Rigid-3" type="fixed">
+            <pose>0.7999999999999904 -8.34054284919998e-16 -0.29999999999999916 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>Staff_Rack</child>
+        </joint>
+        <joint name="base_link_Rigid-4" type="fixed">
+            <pose>0.8100000000000014 2.858157948765999e-14 -0.16000000000000375 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>Tic-Tac-Toe_Base</child>
+        </joint>
+        <joint name="Tic-Tac-Toe_Base_Rigid-5" type="fixed">
+            <pose>0.81 2.880362409258501e-14 -0.1500000000000037 0.0 0.0 0.0</pose>
+            <parent>Tic-Tac-Toe_Base</parent>
+            <child>Tic-Tac-Toe_Top</child>
+        </joint>
+        <joint name="base_link_Rigid-32" type="fixed">
+            <pose>1.1999999999999995 7.710501955340319e-15 -1.2000000000000082 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4001</child>
+        </joint>
+        <joint name="base_link_Rigid-33" type="fixed">
+            <pose>0.5999999999999948 7.710501955340322e-15 -1.1999999999999993 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2001</child>
+        </joint>
+        <joint name="base_link_Rigid-34" type="fixed">
+            <pose>1.1999999999999977 7.710501955340322e-15 -1.1999999999999993 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4002</child>
+        </joint>
+        <joint name="base_link_Rigid-35" type="fixed">
+            <pose>1.200000000000008 1.410538047854401e-14 -1.2000000000000013 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2002</child>
+        </joint>
+        <joint name="base_link_Rigid-36" type="fixed">
+            <pose>0.6000000000000049 1.410538047854401e-14 -1.200000000000001 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4003</child>
+        </joint>
+        <joint name="base_link_Rigid-37" type="fixed">
+            <pose>1.9984014443252818e-15 1.410538047854401e-14 -1.200000000000001 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>6001</child>
+        </joint>
+        <joint name="base_link_Rigid-38" type="fixed">
+            <pose>1.1999999999999988 1.4104692687790833e-14 -1.2000000000000082 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4004</child>
+        </joint>
+        <joint name="base_link_Rigid-39" type="fixed">
+            <pose>0.5999999999999948 1.4104692687790833e-14 -1.1999999999999988 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>6002</child>
+        </joint>
+        <joint name="base_link_Rigid-40" type="fixed">
+            <pose>1.1999999999999977 1.4104692687790835e-14 -1.1999999999999988 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4005</child>
+        </joint>
+        <joint name="base_link_Rigid-41" type="fixed">
+            <pose>1.200000000000008 2.049957121099452e-14 -1.2000000000000022 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2003</child>
+        </joint>
+        <joint name="base_link_Rigid-42" type="fixed">
+            <pose>0.6000000000000049 2.049957121099452e-14 -1.200000000000002 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4006</child>
+        </joint>
+        <joint name="base_link_Rigid-43" type="fixed">
+            <pose>1.2000000000000022 2.0499571210994524e-14 -1.199999999999998 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2004</child>
+        </joint>
+        <joint name="base_link_Rigid-51" type="fixed">
+            <pose>0.6000000000000045 1.0002901589987404e-13 -1.1999999999999988 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>6004</child>
+        </joint>
+        <joint name="base_link_Rigid-56" type="fixed">
+            <pose>4.422522396513416e-15 -8.167070501602284e-16 -0.2999999999999998 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>Staff_Rack2</child>
+        </joint>
+        <joint name="base_link_Rigid-57" type="fixed">
+            <pose>1.1999999999999995 1.2560577882967609e-13 -1.1999999999999984 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4007</child>
+        </joint>
+        <joint name="base_link_Rigid-58" type="fixed">
+            <pose>-6.217248937900877e-15 1.2560785744852865e-13 -8.881784196997891e-16 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4008</child>
+        </joint>
+        <joint name="base_link_Rigid-59" type="fixed">
+            <pose>0.6000000000000045 1.2560577882967609e-13 -1.1999999999999993 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2005</child>
+        </joint>
+        <joint name="base_link_Rigid-60" type="fixed">
+            <pose>1.1999999999999982 1.0002623424367526e-13 -1.2000000000000013 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>6003</child>
+        </joint>
+        <joint name="base_link_Rigid-61" type="fixed">
+            <pose>1.2000000000000013 1.0002623424367527e-13 -1.2000000000000053 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2006</child>
+        </joint>
+        <joint name="base_link_Rigid-63" type="fixed">
+            <pose>0.5999999999999955 1.0002623424367526e-13 -1.200000000000001 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4009</child>
+        </joint>
+        <joint name="base_link_Rigid-64" type="fixed">
+            <pose>1.1999999999999988 1.0002901589987404e-13 -1.1999999999999984 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4010</child>
+        </joint>
+        <joint name="base_link_Rigid-65" type="fixed">
+            <pose>1.200000000000006 1.0002901589987404e-13 -1.1999999999999988 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4011</child>
+        </joint>
+        <joint name="base_link_Rigid-66" type="fixed">
+            <pose>1.1999999999999986 7.444947131387323e-14 -1.2000000000000022 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2007</child>
+        </joint>
+        <joint name="base_link_Rigid-67" type="fixed">
+            <pose>-6.217248937900877e-15 7.444947131387323e-14 -1.2000000000000022 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>2008</child>
+        </joint>
+        <joint name="base_link_Rigid-68" type="fixed">
+            <pose>0.5999999999999955 7.444947131387323e-14 -1.200000000000002 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>4012</child>
+        </joint>
+        <joint name="base_link_Rigid-69" type="fixed">
+            <pose>-9.325864513004675e-16 0.349999999999975 -4.448817310204155e-17 0.0 0.0 0.0</pose>
+            <parent>base_link</parent>
+            <child>Acrylic_Fence2</child>
+        </joint>
+    </model>
+</sdf>
